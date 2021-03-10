@@ -1,4 +1,4 @@
-/* 
+/*
 
 Multi Profile
 http://www.templatemo.com/preview/templatemo_457_multi_profile
@@ -16,7 +16,7 @@ TABLE OF CONTENT
     10. Profile
     11. Contact
     12. Media Queries
-	
+
 -----------------------*/
 
 /* 1. Universal Styles */
@@ -126,6 +126,11 @@ hr {
 }
 .header-img-3 {
 	background: url(../img/header-img-3.jpg) no-repeat center center;
+	background-size: cover;
+	height: 520px;
+}
+.header-img-4 {
+	background: url(../img/Database.png) no-repeat center center;
 	background-size: cover;
 	height: 520px;
 }
