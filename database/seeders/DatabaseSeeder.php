@@ -17,5 +17,11 @@ class DatabaseSeeder extends Seeder
         $this->call(AboutSeeder::class);
         $this->call(ProfileSeeder::class);
         $this->call(ContactSeeder::class);
+
+        //Data
+        $this->call(PegawaiSeeder::class);
+        $this->call(BarangSeeder::class);
+        $this->call(SupplierSeeder::class);
+        $this->call(PelangganSeeder::class);
     }
 }
