@@ -10,12 +10,11 @@ class HomeController extends Controller
 {
     public function index(){
 
-        // Mengambil data dari table Home sesuai id
-        $data = DB::table('homes')->orderBy('home_id')->paginate(1);
+        $data = Home::where('home_id',1)->first();
+        $header = Home::where('home_id',2)->first();
+        $slider = Home::where('home_id',3)->first();
 
-        //mengirim data ke view home
-        return view ('home', ['data' => $data]);
-
+        return view ('home',['slider' => $slider],['header' => $header]);
         /*$alldata = Home::all();
         return view ('home', ['data' => $alldata]);
         */
