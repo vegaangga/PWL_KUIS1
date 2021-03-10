@@ -2,13 +2,13 @@
 @section('menu_home', 'active')
  @section('content')
  <div class="header-img"></div>
- @foreach ($data as $item)
+
  <div class="welcome-container">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="welcome-wrapper">
-                    <h2 class="welcome-title text-uppercase">{{ $item->home_title }}</h2>
+                    <h2 class="welcome-title text-uppercase">{{ $header->home_title }}</h2>
                     <img src="../img/welcome-divider-lines.png" alt="Welcome divider" class="welcome-divider-lines-img">
                     <p class="welcome-description">Multi Profile is free responsive website template for everyone. Feel free to download and use this template for your websites. Thank you for visiting templatemo.</p>
                 </div>
@@ -16,12 +16,12 @@
         </div>
     </div>
 </div>
-@endforeach
+
 <section class="templatemo-container section-shadow-bottom">
     <div class="container">
         <div class="row section-title-container">
             <div class="col-lg-12 text-uppercase text-center">
-                <h2 class="section-title">Slider</h2>
+                <h2 class="section-title">{{ $slider->home_title }}</h2>
                 <div class="section-title-underline-blue"></div>
                 <hr class="section-title-underline">
                 <p class="small">Lorem ip sums</p>
