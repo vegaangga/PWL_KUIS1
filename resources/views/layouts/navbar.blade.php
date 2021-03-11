@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-4 site-name-container">
-                <img src="img/logo.png" alt="Site logo" class="site-logo">
+                <img src="../../img/logo.png" alt="Site logo" class="site-logo">
                 <h1 class="site-name">Multi Pro</h1>
             </div>
             <div class="mobile-menu-icon">
@@ -16,7 +16,7 @@
                         <li><a href="{{url('about')}}" class="@yield('menu_about')">About</a></li>
                         <li><a href="{{url('profile')}}" class="@yield('menu_profile')">profile</a></li>
                         <li><a href="{{url('contact')}}"class="@yield('menu_contact')">contact</a></li>
-
+                    </ul>
                 </nav>
             </div>
         </div>

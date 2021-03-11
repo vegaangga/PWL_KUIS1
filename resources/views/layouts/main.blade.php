@@ -12,9 +12,9 @@
         http://www.templatemo.com/preview/templatemo_457_multi_profile
         -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/templatemo-style.css" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/templatemo-style.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,9 +35,9 @@
         @include('layouts.footer')
         <!--   end Footer -->
         <!-- JS -->
-        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
-        <script type="text/javascript" src="js/responsiveCarousel.min.js"></script>      <!-- Carousel -->
-        <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+        <script type="text/javascript" src="../../js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+        <script type="text/javascript" src="../../js/responsiveCarousel.min.js"></script>      <!-- Carousel -->
+        <script type="text/javascript" src="../../js/templatemo-script.js"></script>      <!-- Templatemo Script -->
         <script>
 
             $(function() {
