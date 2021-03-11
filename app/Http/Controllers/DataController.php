@@ -12,6 +12,6 @@ class DataController extends Controller
 
         $data = DB::table('pegawai')->paginate(1);
 
-        return view('data',['pegawai' => $data]);
+        return view('table.data',['pegawai' => $data]);
     }
 }
