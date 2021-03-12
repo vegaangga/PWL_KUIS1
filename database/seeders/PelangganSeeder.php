@@ -16,82 +16,82 @@ class PelangganSeeder extends Seeder
     {
         $data_pelanggan = [
             [
-                'pelanggan_name'=>'Chindy Marifah',
-                'pelanggan_phone'=>'084789012654',
-                'pelanggan_email'=>'MarifahCindy@gmail.com',
-                'pelanggan_address'=>'Jln. Dr. Soetomo, Surabaya',
+                'pelanggan_name'=>'Farissah Yustika',
+                'pelanggan_phone'=>'085289012697',
+                'pelanggan_email'=>'RissaYustika@gmail.com',
+                'pelanggan_address'=>'Jln. Mawar Bless, Surabaya',
                 'pelanggan_image'=>'1.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Moch. Andika Soufany',
-                'pelanggan_phone'=>'085597004569',
-                'pelanggan_email'=>'AndikaSoufany@gmail.com',
-                'pelanggan_address'=>'Jln. Kembang Sore, Dayurejo',
+                'pelanggan_name'=>'Moch. Andi',
+                'pelanggan_phone'=>'082297006069',
+                'pelanggan_email'=>'Andiwkwk@gmail.com',
+                'pelanggan_address'=>'Jln. Kamboeja, Surakarta',
                 'pelanggan_image'=>'2.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Muhammad Sofyan Abdullah',
-                'pelanggan_phone'=>'085112369850',
-                'pelanggan_email'=>'SofyanAbdul@gmail.com',
-                'pelanggan_address'=>'Jln. Sampoerna, Pasuruan',
+                'pelanggan_name'=>'Muhammad Verdynan',
+                'pelanggan_phone'=>'081254700478',
+                'pelanggan_email'=>'Verdynan00@gmail.com',
+                'pelanggan_address'=>'Jln. Daegu, Jakarta Barat',
                 'pelanggan_image'=>'3.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Chairil Anwar',
-                'pelanggan_phone'=>'083350421003',
-                'pelanggan_email'=>'ChairilA@gmail.com',
-                'pelanggan_address'=>'Jln. Soekarno, Mojokerto',
+                'pelanggan_name'=>'Rezaldi Rahardyan',
+                'pelanggan_phone'=>'081704210035',
+                'pelanggan_email'=>'RahadyanReza@gmail.com',
+                'pelanggan_address'=>'Jln. Jatinegara, Jakarta Utara',
                 'pelanggan_image'=>'4.jpg'
             ],
           
             [
-                'pelanggan_name'=>'Sendyra',
-                'pelanggan_phone'=>'081217005441',
-                'pelanggan_email'=>'Sensendy@gmail.com',
-                'pelanggan_address'=>'Jln. Supratman, Malang',
+                'pelanggan_name'=>'Axel Imanuel',
+                'pelanggan_phone'=>'082212505441',
+                'pelanggan_email'=>'Axelnuel@gmail.com',
+                'pelanggan_address'=>'Jln. Diponegoro, Solo',
                 'pelanggan_image'=>'5.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Ronicha Putri',
-                'pelanggan_phone'=>'081457880223',
-                'pelanggan_email'=>'Ronicha@gmail.com',
-                'pelanggan_address'=>'Jln. Sentul, Riau',
+                'pelanggan_name'=>'Veronica',
+                'pelanggan_phone'=>'081227880223',
+                'pelanggan_email'=>'ica_00@gmail.com',
+                'pelanggan_address'=>'Jln. Karanganyar, Surakarta',
                 'pelanggan_image'=>'6.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Andi Syaputra',
-                'pelanggan_phone'=>'085236445211',
-                'pelanggan_email'=>'AndiSya@gmail.com',
-                'pelanggan_address'=>'Jln. Mahkota, Surabaya',
+                'pelanggan_name'=>'Muhammad Arif',
+                'pelanggan_phone'=>'089946445211',
+                'pelanggan_email'=>'Mariff_1@gmail.com',
+                'pelanggan_address'=>'Jln. Blimbing, Surabaya',
                 'pelanggan_image'=>'7.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Muhammad Latief Syaifuddin',
-                'pelanggan_phone'=>'089954100322',
-                'pelanggan_email'=>'MLatief@gmail.com',
-                'pelanggan_address'=>'Jln. Ambarawa, Depok',
+                'pelanggan_name'=>'Moch. Alvin Syarifuddin',
+                'pelanggan_phone'=>'087454104322',
+                'pelanggan_email'=>'Alvinuddin@gmail.com',
+                'pelanggan_address'=>'Jln. Soekarno-Hatta, Depok',
                 'pelanggan_image'=>'8.jpg'
             ],
 
             [
-                'pelanggan_name'=>'Raffli Wendi',
-                'pelanggan_phone'=>'087201451103',
-                'pelanggan_email'=>'Raffliwe@gmail.com',
-                'pelanggan_address'=>'Jln. RA. Kartini, Surabaya',
+                'pelanggan_name'=>'Qomar',
+                'pelanggan_phone'=>'085775022114',
+                'pelanggan_email'=>'Qomarr02@gmail.com',
+                'pelanggan_address'=>'Jln. RA. Kartini, Bali',
                 'pelanggan_image'=>'9.jpg'
             ],
             
             [
-                'pelanggan_name'=>'Sovia Lenita',
-                'pelanggan_phone'=>'085741022965',
-                'pelanggan_email'=>'Sovleni@gmail.com',
-                'pelanggan_address'=>'Jln. Sumbawa, Lamongan',
+                'pelanggan_name'=>'Sony',
+                'pelanggan_phone'=>'087880054707',
+                'pelanggan_email'=>'Sony_p@gmail.com',
+                'pelanggan_address'=>'Jln. Klaten, Lamongan',
                 'pelanggan_image'=>'10.jpg'
             ]
 
