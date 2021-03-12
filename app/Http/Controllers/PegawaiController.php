@@ -10,8 +10,11 @@ class PegawaiController extends Controller
 {
     public function pegawai(){
 
-        $data = DB::table('pegawai')->paginate(2);
+        /* $data = DB::table('pegawai')->paginate(2);
 
         return view('pegawai',['pegawai' => $data]);
+        */
+        $data = pegawai::paginate(2);
+        return view('pegawai', ['pegawai' => $data]);
     }
 }
