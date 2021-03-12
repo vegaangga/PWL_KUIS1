@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="welcome-wrapper">
-                            <h2 class="welcome-title text-uppercase">Work</h2>
+                            <h2 class="welcome-title text-uppercase">{{$header->profile_title}}</h2>
                             <img src="img/welcome-divider-lines.png" alt="Welcome divider" class="welcome-divider-lines-img">
                             <p class="welcome-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lectus augue, non rhoncus erat accumsan eu. Sed dictum sem.</p>
                         </div>
@@ -29,7 +29,7 @@
                         <h2 class="section-title">Profile</h2>
                         <div class="section-title-underline-blue"></div>
                         <hr class="section-title-underline">
-                        <p class="small">Proin Gravidani</p>
+                        <p class="small">Vega Anggaresta & Chika Labita</p>
                     </div>
                 </div>
                 <div class="row margin-bottom-30">
@@ -44,43 +44,15 @@
                     </div>
                 </div>
                 <div id="folio-container" class="row">
+                    @foreach ($profile as $item)
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item design">
-                        <img src="img/18.jpg" alt="Image" class="img-thumbnail">
+                        <img src="../../img/{{ $item->profile_image}}" class="img-thumbnail">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item design">
-                        <img src="img/19.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item design">
-                        <img src="img/20.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item design">
-                        <img src="img/21.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item web">
-                        <img src="img/22.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item web">
-                        <img src="img/23.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item web">
-                        <img src="img/24.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item branding">
-                        <img src="img/25.jpg" alt="Image" class="img-thumbnail">
-                        </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item branding">
-                        <img src="img/26.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item branding">
-                        <img src="img/27.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item print">
-                        <img src="img/28.jpg" alt="Image" class="img-thumbnail">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item print">
-                        <img src="img/29.jpg" alt="Image" class="img-thumbnail">
-                    </div>
+                    @endforeach
                 </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                {{ $profile->links() }}
             </div>
         </section>
 
