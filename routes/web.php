@@ -40,7 +40,7 @@ Route::get('/data',[DataController::class, 'data']);
 Route::prefix('data')->group(function () {
    Route::get('/pegawai', [PegawaiController::class,'pegawai']);
    Route::get('/barang', [BarangController::class,'barang']);
-   Route::get('/suppllier', [SupplierController::class,'supplier']);
+   Route::get('/supplier', [SupplierController::class,'supplier']);
    Route::get('/pelanggan', [PelangganController::class,'pelanggan']);
 });
 
@@ -49,3 +49,5 @@ Route::get('/profile',[ProfileController::class, 'profile']);
 Route::get('/contact',[ContactController::class, 'contact']);
 
 Route::get('/pegawai',[HomeController::class, 'index']);
+
+
