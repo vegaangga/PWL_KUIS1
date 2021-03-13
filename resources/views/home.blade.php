@@ -10,7 +10,7 @@
                 <div class="welcome-wrapper">
                     <h2 class="welcome-title text-uppercase">{{ $header->home_title }}</h2>
                     <img src="../img/welcome-divider-lines.png" alt="Welcome divider" class="welcome-divider-lines-img">
-                    <p class="welcome-description">Multi Profile is free responsive website template for everyone. Feel free to download and use this template for your websites. Thank you for visiting templatemo.</p>
+                    <p class="welcome-description">{{ $header->home_content }}</p>
                 </div>
             </div>
         </div>
@@ -24,12 +24,12 @@
                 <h2 class="section-title">{{ $slider->home_title }}</h2>
                 <div class="section-title-underline-blue"></div>
                 <hr class="section-title-underline">
-                <p class="small">Lorem ip sums</p>
+                <p class="small">MULTI Pro.inc</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <h3 class="section-title-2 text-uppercase font-weight-300"><b>Morbi</b> <span class="blue-text">Accumsan</span></h3>
+                <h3 class="section-title-2 text-uppercase font-weight-300"><b>WE</b> <span class="blue-text">ARE</span></h3>
                 <p>Credit goes to <a href="http://unsplash.com">Unsplash</a> for images used in this template. Morbi dapibus rhoncus nulla ac tempus. Integer felis lorem, fermentum quis nisl accumsan, gravida gravida est. Cras ultrices rhoncus dui ut laoreet. Fusce tincidunt, urna a imperdiet tempor, orci dolor dictum elit, sit amet malesuada mauris magna eget dolor. Morbi ornare convallis vulputate. Donec ut suscipit nisl, ac elementum nisi.</p>
                 <ul class="gray-text ul-1">
                     <li>Sed non mauris vitae erat consequat auctor</li>
@@ -44,13 +44,13 @@
                     <div class="crsl-items" data-navigation="navbtns">
                         <div class="crsl-wrap">
                             <figure class="crsl-item">
-                                <img src="img/1.jpg" alt="Image" class="img-responsive img-thumbnail">
+                                <img src="../../img/{{ $data->home_image}}" alt="Image" class="img-responsive img-thumbnail">
                             </figure>
                             <figure class="crsl-item">
-                                <img src="img/2.jpg" alt="Image" class="img-responsive img-thumbnail">
+                                <img src="../../img/{{ $data->home_image2}}" class="img-responsive img-thumbnail">
                             </figure>
                             <figure class="crsl-item">
-                                <img src="img/3.jpg" alt="Image" class="img-responsive img-thumbnail">
+                                <img src="../../img/{{ $data->home_image3}}" class="img-responsive img-thumbnail">
                             </figure>
                         </div>
                     </div>
@@ -73,10 +73,10 @@
     <div class="container">
         <div class="row section-title-container">
             <div class="col-lg-12 text-uppercase text-center">
-                <h2 class="section-title">Who we are</h2>
+                <h2 class="section-title">{{ $we->home_title}}</h2>
                 <div class="section-title-underline-blue"></div>
                 <hr class="section-title-underline">
-                <p class="small">Proin Gravidani</p>
+                <p class="small">{{ $we->home_content}}</p>
             </div>
         </div> <!-- row -->
         <div class="row">
