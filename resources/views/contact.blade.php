@@ -16,7 +16,7 @@
                         <div class="welcome-wrapper">
                             <h2 class="welcome-title text-uppercase">In Touch</h2>
                             <img src="img/welcome-divider-lines.png" alt="Welcome divider" class="welcome-divider-lines-img">
-                            <p class="welcome-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lectus augue, non rhoncus erat accumsan eu. Sed dictum sem.</p>
+                            <p class="welcome-description">Feel Free To Contact Us</p>
                         </div>
                     </div>
                 </div>
@@ -31,32 +31,32 @@
                         <h2 class="section-title">Contact</h2>
                         <div class="section-title-underline-blue"></div>
                         <hr class="section-title-underline">
-                        <p class="small">Proin Gravidani</p>
+                        <p class="small">V & C</p>
                     </div> <!-- col-lg-12 -->
                 </div> <!-- row -->
                 <div class="row margin-bottom-30">
                     <div class="col-lg-6 col-md-6 contact-left">
                         <h3 class="section-title-2 text-uppercase font-weight-300"><b>Our</b> <span class="blue-text">Information</span></h3>
-                        <p class="margin-bottom-30">Proin gravida arcu malesuada, venenatis nisl vitae, egestas sem. Vestibulum mauris magna, aliquam non commodo ac, porttitor a augue.</p>
+                        <p class="margin-bottom-30">Feel Free To contact us adn leave a message</p>
                         <div class="contact-point">
                             <i class="fa fa-map-marker fa-3x contact-point-icon blue-text"></i>
                             <div class="contact-point-detail-container">
                                 <b class="text-uppercase contact-point-title blue-text font-weight-700">Address</b>
-                                <p class="contact-point-detail">No. 1234, Rama IX Road, Bangkok 12345, Thailand.</p>
+                                <p class="contact-point-detail">No. 2704 Prigen Street, Pasuruan, East Java, Indonesia.</p>
                             </div>
                         </div>
                         <div class="contact-point">
                             <i class="fa fa-envelope-o fa-3x contact-point-icon blue-text"></i>
                             <div class="contact-point-detail-container">
                                 <b class="text-uppercase contact-point-title blue-text font-weight-700">Email</b>
-                                <p class="contact-point-detail">mail@company.com</p>
+                                <p class="contact-point-detail">Multi.pro@company.com</p>
                             </div>
                         </div>
                         <div class="contact-point">
                             <i class="fa fa-phone fa-3x contact-point-icon blue-text"></i>
                             <div class="contact-point-detail-container">
                                 <b class="text-uppercase contact-point-title blue-text font-weight-700">Phone</b>
-                                <p class="contact-point-detail">+(123) 456 7890</p>
+                                <p class="contact-point-detail">+(62) 123-4567-8910</p>
                             </div>
                        </div>
                     </div>
