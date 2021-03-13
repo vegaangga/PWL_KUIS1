@@ -2,9 +2,9 @@
 @section('menu_data','active')
 
 @section('content')
+ <!--
         <div class="header-img-4"></div>
-        <!-- end header image -->
-        <!-- Welcome message -->
+
         <div class="welcome-container">
             <div class="container">
                 <div class="row">
@@ -18,6 +18,7 @@
                 </div>
             </div>
         </div>
+    -->
         <!-- Welcome message -->
         <!-- main content -->
         <section class="templatemo-container">
@@ -27,7 +28,7 @@
                         <h2 class="section-title" id="data">Data</h2>
                         <div class="section-title-underline-blue"></div>
                         <hr class="section-title-underline">
-                        <p class="small">Vega Anggaresta & Chika Labita</p>
+                        <p class="small">Kuis 1 - Vega Anggaresta & Chika Labita</p>
                     </div>
                 </div>
                 <div class="row margin-bottom-30">

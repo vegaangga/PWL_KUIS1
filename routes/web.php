@@ -48,6 +48,5 @@ Route::get('/about',[AboutController::class, 'about']);
 Route::get('/profile',[ProfileController::class, 'profile']);
 Route::get('/contact',[ContactController::class, 'contact']);
 
-Route::get('/pegawai',[HomeController::class, 'index']);
 
 
