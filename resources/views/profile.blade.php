@@ -12,9 +12,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="welcome-wrapper">
-                            <h2 class="welcome-title text-uppercase">{{$header->profile_title}}</h2>
+                            <h2 class="welcome-title text-uppercase">{{ $headers->profile_title }}</h2>
                             <img src="img/welcome-divider-lines.png" alt="Welcome divider" class="welcome-divider-lines-img">
-                            <p class="welcome-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lectus augue, non rhoncus erat accumsan eu. Sed dictum sem.</p>
+                            <p class="welcome-description">{{ $headers->profile_content}}</p>
                         </div>
                     </div>
                 </div>
@@ -32,17 +32,6 @@
                         <p class="small">Vega Anggaresta & Chika Labita</p>
                     </div>
                 </div>
-                <div class="row margin-bottom-30">
-                    <div class="col-lg-12">
-                        <ul id="filters" class="folio-filters">
-                            <li class="current"><a href="#" data-filter="*">All</a></li>
-                            <li class=""><a href="#" data-filter=".design">Design</a></li>
-                            <li class=""><a href="#" data-filter=".web">Web</a></li>
-                            <li class=""><a href="#" data-filter=".branding">Branding</a></li>
-                            <li class=""><a href="#" data-filter=".print">Print</a></li>
-                        </ul>
-                    </div>
-                </div>
                 <div id="folio-container" class="row">
                     @foreach ($profile as $item)
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 margin-bottom-30 folio-item design">
@@ -50,9 +39,10 @@
                     </div>
                     @endforeach
                 </div>
+                {{ $profile->links() }}
             </div>
             <div class="d-flex justify-content-center">
-                {{ $profile->links() }}
+
             </div>
         </section>
 
