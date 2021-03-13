@@ -9,8 +9,9 @@ class ProfileController extends Controller
 {
     public function profile(){
 
-        $data = profile::paginate(10);
-        $header = profile::where('profile_id', 21)->first();
-        return view('profile', ['profile' => $data], ['header' => $header]);
+        $data = Profile::paginate(8);
+
+        $header = Profile::where('profile_id', 21)->first();
+        return view('profile', ['profile' => $data], ['headers' => $header]);
         }
 }
