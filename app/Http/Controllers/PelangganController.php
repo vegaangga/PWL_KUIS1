@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\DB;
 class PelangganController extends Controller
 {
     public function pelanggan(){
-    
-    $data = pelanggan::paginate(2);
-    
+
+    $data = pelanggan::paginate(5);
+
     return view('pelanggan', ['pelanggan' => $data]);
     }
 }

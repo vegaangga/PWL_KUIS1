@@ -8,6 +8,7 @@
     <table class="table">
       <thead>
         <tr>
+          <th>No</th>
           <th>Nama Barang</th>
           <th>Category</th>
           <th>Harga Beli</th>
@@ -16,8 +17,10 @@
         </tr>
       </thead>
       <tbody>
-          @foreach ($barang as $item)
+
+          @foreach ($barang as $index => $item)
         <tr>
+          <td>{{ $index + $barang->firstItem() }}</td>
           <td>{{ $item->barang_name }}</td>
           <td>{{ $item->barang_category }}</td>
           <td>{{ $item->barang_beli }}</td>

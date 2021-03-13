@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\DB;
 class SupplierController extends Controller
 {
     public function supplier(){
-    
-        $data = supplier::paginate(2);
+
+        $data = supplier::paginate(5);
         return view('supplier', ['supplier' => $data]);
         }
 }

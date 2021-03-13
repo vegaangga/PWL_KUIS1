@@ -7,6 +7,7 @@
     <table class="table">
       <thead>
         <tr>
+          <th>No</th>
           <th>Name</th>
           <th>Phone</th>
           <th>Email</th>
@@ -15,8 +16,10 @@
         </tr>
       </thead>
       <tbody>
-          @foreach ($pelanggan as $item)
+
+          @foreach ($pelanggan as $index => $item)
         <tr>
+          <td>{{ $index + $pelanggan->firstItem() }}</td>
           <td>{{ $item->pelanggan_name }}</td>
           <td>{{ $item->pelanggan_phone }}</td>
           <td>{{ $item->pelanggan_email }}</td>

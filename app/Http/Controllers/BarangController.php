@@ -10,7 +10,7 @@ class BarangController extends Controller
 {
     public function barang(){
 
-        $data = barang::paginate(5);
+        $data = barang::paginate(10);
         return view('barang', ['barang' => $data]);
 
         /*

@@ -14,7 +14,7 @@ class PegawaiController extends Controller
 
         return view('pegawai',['pegawai' => $data]);
         */
-        $data = pegawai::paginate(10);
+        $data = pegawai::paginate(5);
         return view('pegawai', ['pegawai' => $data]);
     }
 }
